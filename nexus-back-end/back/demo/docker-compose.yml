@@ -1,0 +1,10 @@
+
+services:
+  db:
+    image: mysql:latest
+    container_name: msql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: Hhll-303509423
+      MYSQL_DATABASE: manager
+    ports:
+      - "3306:3306"

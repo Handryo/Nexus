@@ -1,0 +1,106 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Define a família de fontes */
+  background-color: rgb(0, 0, 0); /* Define a cor de fundo */
+  padding: 30px; /* Define o preenchimento em torno do conteúdo */
+  background-image: url(assets/image.jpg); /* Define a imagem de fundo */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-size: cover; /* Cobre toda a área do fundo com a imagem */
+  color: rgb(0, 0, 0); /* Define a cor do texto */
+}
+
+.app {
+  max-width: 600px; /* Define a largura máxima do contêiner */
+  margin: 0 auto 300px; /* Centraliza o contêiner e adiciona margem inferior */
+  background-color: rgba(238, 238, 238, 0.955); /* Define a cor de fundo do contêiner com um pouco de transparência */
+  border-radius: 10px; /* Define bordas arredondadas */
+  padding: 30px 20px; /* Define o preenchimento interno do contêiner */
+}
+
+h1 {
+  text-align: center; /* Centraliza o texto do cabeçalho */
+}
+
+h2 {
+  margin-bottom: 10px; /* Adiciona margem inferior */
+}
+
+p {
+  margin: 10px 0; /* Adiciona margem em cima e embaixo */
+}
+
+input {
+  box-sizing: border-box; /* Inclui preenchimento e borda na largura total e altura */
+}
+
+button {
+  background-color: rgb(122, 88, 162); /* Define a cor de fundo do botão */
+  color: aliceblue; /* Define a cor do texto do botão */
+  padding: 5px 10px; /* Define o preenchimento interno do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 5px; /* Define bordas arredondadas */
+  cursor: pointer; /* Muda o cursor para pointer ao passar sobre o botão */
+  opacity: 0.8; /* Define a opacidade do botão */
+  transition: 0.3s; /* Adiciona uma transição suave */
+  margin-right: 10px; /* Adiciona margem à direita */
+}
+
+button:hover {
+  opacity: 1; /* Aumenta a opacidade ao passar o cursor sobre o botão */
+}
+
+.todo-list {
+  margin-bottom: 20px; /* Adiciona margem inferior */
+  padding-bottom: 20px; /* Adiciona preenchimento inferior */
+  border-bottom: 1px solid gray; /* Adiciona uma borda inferior */
+}
+
+.todo {
+  background-color: rgb(255, 255, 255); /* Define a cor de fundo da tarefa */
+  box-shadow: 0 0 10px rgb(201, 201, 201); /* Adiciona uma sombra à tarefa */
+  padding: 10px; /* Define o preenchimento interno da tarefa */
+  margin-bottom: 10px; /* Adiciona margem inferior */
+  border-radius: 5px; /* Define bordas arredondadas */
+  display: flex; /* Usa o layout flex */
+  justify-content: space-between; /* Distribui espaço entre os itens */
+  align-items: center; /* Alinha os itens ao centro */
+}
+
+.complete {
+  background-color: rgba(14, 194, 134, 0.792); /* Define a cor de fundo para o botão de completar */
+}
+
+.remove {
+  background-color: rgb(187, 14, 14); /* Define a cor de fundo para o botão de remover */
+}
+
+.todo-form {
+  padding-bottom: 1.5rem; /* Define o preenchimento inferior */
+}
+
+select {
+  background-color: rgb(255, 255, 255); /* Define a cor de fundo do seletor */
+}
+
+input, select {
+  padding: 5px; /* Define o preenchimento interno */
+  margin-bottom: 10px; /* Adiciona margem inferior */
+  border: 1px solid rgb(255, 255, 255); /* Define a borda */
+  border-radius: 3px; /* Define bordas arredondadas */
+  width: 100%; /* Define a largura total */
+}
+
+.filter, .search {
+  border-bottom: 1px solid gray; /* Adiciona uma borda inferior */
+  margin-bottom: 20px; /* Adiciona margem inferior */
+  padding-bottom: 20px; /* Adiciona preenchimento inferior */
+}
+
+.filter-options {
+  display: flex; /* Usa o layout flex */
+  justify-content: space-between; /* Distribui espaço entre os itens */
+  gap: 3rem; /* Define a lacuna entre os itens */
+}
+
+.filter-options div {
+  flex: 1 1 0; /* Define a flexibilidade dos itens */
+}
